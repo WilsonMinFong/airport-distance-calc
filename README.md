@@ -1,12 +1,12 @@
 # Airport Distance Calculator
 
-[Google Maps]: https://developers.google.com/maps/
-[Google Maps Places Library]: https://developers.google.com/maps/documentation/javascript/places
+[Google Maps API]: https://developers.google.com/maps/
+[Google Places API]: https://developers.google.com/maps/documentation/javascript/places
 
-This calculator utilizes airport data gathered from
-[Google Maps Places Library] to calculate the distance in nautical miles
+This calculator utilizes airport data gathered from the
+[Google Places API] to calculate the distance in nautical miles
 between two US airports.  A path between the two airports is drawn using
-[Google Maps].
+the [Google Maps API].
 
 ![main](assets/screenshot.png)
 
@@ -22,7 +22,8 @@ This calculator utilizes the following technologies:
 
 - jQuery for DOM manipulation
 - jQuery UI for autocomplete input
-- Google Maps API for airport searching and plotting
+- Google Places API for airport searching
+- Google Maps API for map plotting
 - Webpack to bundle JS files
 
 This project contains the following library files:
