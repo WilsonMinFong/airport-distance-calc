@@ -8,7 +8,7 @@ This calculator utilizes airport data gathered from
 between two US airports.  A path between the two airports is drawn using
 [Google Maps].
 
-![main](screenshot.png)
+![main](assets/screenshot.png)
 
 ## How to Run
 
